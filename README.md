@@ -4,13 +4,13 @@ Get build notifications in Discord.
 
 ## Configuration
 
-You can either install the plugin through the netlify plugin directory or by installing as a package and adding the plugin to your `netlify.toml`.
+Add the plugin to your build config file (`netlify.toml`)
 
 ```toml
 [[plugins]]
   package = "netlify-plugin-discord"
 ```
 
-Once installed, add the discord webhook url as a netlify environment variable with the name `DISCORD_WEBHOOK_URL`.
+Once installed, add the discord webhook url as a environment variable with the name `DISCORD_WEBHOOK_URL`.
 
 Happy building!
