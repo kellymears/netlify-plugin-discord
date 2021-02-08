@@ -1,0 +1,33 @@
+{
+  "name": "netlify-plugin-discord",
+  "version": "0.0.2",
+  "description": "Netlify Build plugin - Discord webhook notifications",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "manifest.yml"
+  ],
+  "keywords": [
+    "netlify-plugin",
+    "netlify",
+    "discord"
+  ],
+  "author": "Kelly Mears <hello@kellymears.me>",
+  "license": "MIT",
+  "repository": "https://github.com/kellymears/netlify-plugin-discord",
+  "scripts": {
+    "pretty": "prettier {lib}/*.js --write"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "prettier": "^2.1.2",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@netlify/build": "^4.7.2",
+    "netlify-cli": "^2.65.0"
+  },
+  "engines": {
+    "node": ">=10.22.0"
+  }
+}
