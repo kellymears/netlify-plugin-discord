@@ -1,5 +1,7 @@
 # netlify-plugin-discord
 
+![npm](https://img.shields.io/npm/v/netlify-plugin-discord?label=npm&style=flat-square)
+
 Get build notifications in Discord.
 
 ## Configuration
