@@ -16,16 +16,16 @@
   "license": "MIT",
   "repository": "https://github.com/kellymears/netlify-plugin-discord",
   "scripts": {
-    "pretty": "prettier {lib}/*.js --write"
+    "pretty": "prettier ./lib/*.js --write"
   },
   "dependencies": {
-    "cross-env": "^7.0.2",
-    "prettier": "^2.1.2",
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
-    "@netlify/build": "^4.7.2",
-    "netlify-cli": "^2.65.0"
+    "eslint": "^7.19.0",
+    "netlify-cli": "^2.65.0",
+    "prettier": "^2.1.2"
   },
   "engines": {
     "node": ">=10.22.0"
